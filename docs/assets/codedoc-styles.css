@@ -34,7 +34,7 @@
     overflow: hidden;
     max-width: 800px;
     transition: box-shadow .3s, transform .3s;
-    border-radius: 8px;
+    border-radius: 4px;
     vertical-align: middle;
   }
   .p5-0-0-3:hover {
@@ -42,7 +42,7 @@
   }
   .p5-0-0-3.center {
     width: 100%;
-    border: 3px solid red;
+    border: 1px solid cyan;
     margin: auto;
     padding: 10px;
   }
