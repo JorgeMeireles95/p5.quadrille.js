@@ -42,9 +42,9 @@
   }
   .p5-0-0-3.center {
     width: 100%;
-    border: 1px solid cyan;
+    border: 2px solid cyan;
     margin: auto;
-    padding: 10px;
+    padding: 3px;
   }
   .p5-0-0-3 img {
     width: calc(100% + 16px);

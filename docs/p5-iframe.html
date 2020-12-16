@@ -41,11 +41,30 @@
         <head>
           <script src=https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js></script>
           <script src=/p5.quadrille.js/docs/sketches/p5.quadrille.js></script>
-          <script> [object HTMLParagraphElement],[object HTMLParagraphElement],[object HTMLParagraphElement] </script>
+          <script> const ROWS = 20;
+const COLS = 10;
+const LENGTH = 20;
+var quadrille;
+var clone;
+var x = 2, y = 2;function setup() {
+  createCanvas(COLS * LENGTH, ROWS * LENGTH);
+  quadrille = createQuadrille([[color('cyan'), '👽',             0    ],
+                               [0,             '🤔',            '🙈' ],
+                               [0,             color('#770811'), 0   ],
+                               ['g',           'o',             'l'  ]
+                              ]);
+  quadrille.reflect();
+  clone = quadrille.clone();
+  clone.reflect();
+}function draw() {
+  background('#060621');
+  drawQuadrille(quadrille, x, y, LENGTH, 2, 'green');
+  drawQuadrille(clone, 2, 8, LENGTH, 0);
+} </script>
         </head>
         <body>
         </body>
       </html>
     "></iframe><div class="contentnav-0-0-10" data-no-search=""><a href="#p5-iframe-use" class="h1" data-content-highlight="p5-iframe-use">P5 iframe use</a></div></div><div id="-codedoc-toc" class="toc-0-0-7"><div class="content-0-0-8"><p><a href="/p5.quadrille.js/">Home</a>
 <a href="/p5.quadrille.js/docs/p5-div">P5 div</a>
-<a href="/p5.quadrille.js/docs/p5-iframe">P5 iframe</a></p></div><div class="search-0-0-9"><script id="FxTBhyHNIq">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("FxTBhyHNIq", "ROYBRx6H9Nd50i6uNpoCOA==", {"repo":"p5.quadrille.js","user":"objetos","root":"docs/md","pick":"\\.md$","drop":"(^_)|(\\/_)"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><div class="footer-0-0-6"><div class="left"><script id="XOIzhBOrHN">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("XOIzhBOrHN", "d6M+BB17k7SZ9Q4Fl3imZQ==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div><div class="main"><div class="inside"><a href="https://github.com/objetos/p5.quadrille.js/" target="_blank">GitHub</a></div></div><div class="right"><script id="xBSgIhGoLL">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("xBSgIhGoLL", "RyJFI7P2FKthOgKgXdYxkw==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><script id="nXsEmjDmqG">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("nXsEmjDmqG", "S1Qc5VnGkzZrqZMG4xs+AQ==", {"namespace":"/p5.quadrille.js"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></body></html>
+<a href="/p5.quadrille.js/docs/p5-iframe">P5 iframe</a></p></div><div class="search-0-0-9"><script id="MkiigBzOLx">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("MkiigBzOLx", "ROYBRx6H9Nd50i6uNpoCOA==", {"repo":"p5.quadrille.js","user":"objetos","root":"docs/md","pick":"\\.md$","drop":"(^_)|(\\/_)"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><div class="footer-0-0-6"><div class="left"><script id="hYeJ_pWssO">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("hYeJ_pWssO", "d6M+BB17k7SZ9Q4Fl3imZQ==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div><div class="main"><div class="inside"><a href="https://github.com/objetos/p5.quadrille.js/" target="_blank">GitHub</a></div></div><div class="right"><script id="AbFaI_ePQk">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("AbFaI_ePQk", "RyJFI7P2FKthOgKgXdYxkw==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><script id="kyfnXlKlLs">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("kyfnXlKlLs", "S1Qc5VnGkzZrqZMG4xs+AQ==", {"namespace":"/p5.quadrille.js"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></body></html>
