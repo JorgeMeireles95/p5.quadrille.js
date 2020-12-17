@@ -78,6 +78,11 @@
   ],
   "components": [
     {
+      "name": "CollapseControl",
+      "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
+      "hash": "vW2hdNLCK1PBr/mxP3M/IA=="
+    },
+    {
       "name": "GithubSearch",
       "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
       "hash": "ROYBRx6H9Nd50i6uNpoCOA=="
