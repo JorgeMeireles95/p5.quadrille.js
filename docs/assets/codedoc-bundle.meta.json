@@ -83,6 +83,11 @@
       "hash": "vW2hdNLCK1PBr/mxP3M/IA=="
     },
     {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "TaPUQdfOEJMt/5YfU6DGDw=="
+    },
+    {
       "name": "GithubSearch",
       "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
       "hash": "ROYBRx6H9Nd50i6uNpoCOA=="
