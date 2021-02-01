@@ -14,6 +14,7 @@ import { tocHighlight } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/
 import { postNavSearch } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
+import { TabSelector } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 import { ToCPrevNext } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 import { CollapseControl } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
 import { GithubSearch } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
@@ -22,6 +23,7 @@ import { DarkModeSwitch } from '/home/runner/work/p5.quadrille.js/p5.quadrille.j
 import { ConfigTransport } from '/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
 
 const components = {
+  'LiW3+ihxAP1kGrRwzDsT6g==': TabSelector,
   'TaPUQdfOEJMt/5YfU6DGDw==': ToCPrevNext,
   'vW2hdNLCK1PBr/mxP3M/IA==': CollapseControl,
   'ROYBRx6H9Nd50i6uNpoCOA==': GithubSearch,
