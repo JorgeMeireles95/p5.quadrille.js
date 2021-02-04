@@ -11,6 +11,11 @@
       "hash": "KRbIXrmqRfJZwgzsSPcv5Q=="
     },
     {
+      "name": "zoomOnFormula",
+      "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/formula/zoom-on-formula.js",
+      "hash": "fDjwSgoLtO+itdgYQONDDg=="
+    },
+    {
       "name": "codeSelection",
       "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
       "hash": "VhcPQz98dTVV2kFu0qiGYw=="
