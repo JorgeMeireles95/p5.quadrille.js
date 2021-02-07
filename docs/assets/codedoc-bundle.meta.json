@@ -88,11 +88,6 @@
       "hash": "LiW3+ihxAP1kGrRwzDsT6g=="
     },
     {
-      "name": "ToCPrevNext",
-      "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "TaPUQdfOEJMt/5YfU6DGDw=="
-    },
-    {
       "name": "CollapseControl",
       "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
       "hash": "vW2hdNLCK1PBr/mxP3M/IA=="
@@ -116,6 +111,11 @@
       "name": "ConfigTransport",
       "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "S1Qc5VnGkzZrqZMG4xs+AQ=="
+    },
+    {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/p5.quadrille.js/p5.quadrille.js/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "TaPUQdfOEJMt/5YfU6DGDw=="
     }
   ],
   "renderer": {
